@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    gap:10px;
+    align-items:center;
+}
+.navbar__s1__title{
+    color:blue;
+    align-items:center;
+} 
+.navbar__s2{
+    border:solid black 1px;
+    border-radius: 30px;
+    padding: 10px;
+    width:60%;
+    display:flex;
+    gap:10px;
+    font-size: 16px;
+    align-items:center;
+}
+.navbar__s2 input{
+    border:none;
+    width:100%;
+}
+.navbar__s2 input:focus{
+    outline:none;
+}
+.navbar__s3{
+    display:flex;
+    gap:10px;
+    text-align:center;
+}
+.catagories{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    border-bottom:1px solid #ccc;
+}
+.catagories p{
+    background-color:blue;
+    padding:10px;
+    color:white;
+    border-radius:50px;
+    margin:5px;
+}
+.saleimage img{
+    width:100%;
+    height:500px;
+}
+.recomended{
+    padding: 10px;
+}
+.recomended p{
+    font-size: 18px;
+}
+.coursecard {
+    width:20%;
+    justify-content: space-around;
+    flex-basis: 25%;
+}
+.coursecard img{
+    height: 50%;
+    width:80%;
+     justify-content: space-around;
+
+}
+.recomended__container{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-around;
+    border: solid black;
+    border-radius: 20px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+.popular p{
+    font-size: 30px;;
+}
+.popular{
+    padding: 15px;;
+}
+.popular__container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.popular__container p{
+    border:solid black 1px;
+    padding: 10px; 
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.footer__one{
+    display: flex;
+     gap: 10px;
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
